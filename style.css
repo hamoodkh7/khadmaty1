@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: "Tajawal", sans-serif;
-    direction: rtl;
+;
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
@@ -152,6 +152,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    width: 100%;
     max-width: 1483px;
     margin: 0 auto;
     position: relative;
@@ -163,11 +164,11 @@ nav ul {
 nav ul li a {
     position: relative;
     top: 58px;
+    left: 0;
     color: #343434;
     font-weight: 700;
     font-size: 24px;
     line-height: 30.23px;
-    /* letter-spacing: -2px; */
     transition: all 0.3s ease;
 }
 
@@ -1325,7 +1326,7 @@ nav ul li a:hover {
    RESPONSIVE DESIGN — MOBILE & TABLET (≤1024px)
    ================================================ */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     html {
         font-size: 15px;
     }
@@ -1348,12 +1349,11 @@ nav ul li a:hover {
     }
 
     header nav {
-        width: 90%;
+        width: 100%;
         padding: 1rem 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: end;
-        margin-top: 10px;
     }
 
     header nav ul {
@@ -1461,7 +1461,12 @@ nav ul li a:hover {
     }
 
     .glow-box {
-        display: none;
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 45%;
     }
 
     /* ---------- ABOUT APP ---------- */
