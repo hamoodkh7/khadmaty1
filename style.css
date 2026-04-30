@@ -1103,7 +1103,7 @@ nav ul li a:hover {
     background: #ff4267;
     position: absolute;
     top: 169px;
-    left: 2010.33px;
+    left: 2020.33px;
 }
 
 .purple-smool {
@@ -1113,7 +1113,7 @@ nav ul li a:hover {
     background: #7f04ff;
     position: absolute;
     top: 669px;
-    left: -36px;
+    left: -16px;
 }
 
 
@@ -1198,18 +1198,139 @@ nav ul li a:hover {
     bottom: 138px;
 }
 
+
+.shape-dots-circle1{
+    width: 139px;
+    height: 307px;
+    background-image: radial-gradient(circle, #fff 1px, transparent 3px);
+    background-size: 30.5px 40.5px;
+    position: absolute;
+    left: 482px;
+    top: 240px;
+}
+
+.shape-dots-circle2 {
+    height: 213px;
+    width: 472px;
+    background-image: radial-gradient(circle, #fff 0px, transparent 4px);
+    background-size: 31.5px 40.5px;
+    position: absolute;
+    left: 1267px;
+    top: 685px;
+}
+.shape-dots-circle3  {
+ height: 213px;
+    width: 472px;
+    background-image: radial-gradient(circle, #ccc 0px, transparent 4px);
+    background-size: 40.5px 30.5px;
+    position: absolute;
+    left: 163px;
+top: 1157px;}
+
+
+
+
+
+.shape-dots-bink {
+    height: 45.3px;
+    width: 120.91px;
+    background-image: radial-gradient(circle, #d0c9c9 0px, transparent 4px);
+    background-size: 14.5px 7.5px;
+    position: absolute;
+    left: 1951px;
+    top: 224px;
+}
+
+.shape-dots-purple-smool {
+    height: 57.29px;
+    width: 131.91px;
+    background-image: radial-gradient(circle, #d0c9c9 0px, transparent 4px);
+    background-size: 14.5px 7.5px;
+    position: absolute;
+    left: 10px;
+    top: 641px;
+}
+
+
+
+
+
+.shape-dots-our1 {
+    width: 370px;
+    height: 167px;
+    background-image: radial-gradient(circle, #ccc 1px, transparent 4px);
+    background-size: 30.5px 40px;
+    position: absolute;
+    left: -24px;
+    top:277px;
+}
+
+
+.shape-dots-our2 {
+    width: 370px;
+    height: 167px;
+    background-image: radial-gradient(circle, #ccc 1px, transparent 4px);
+    background-size: 30.5px 40px;
+    position: absolute;
+    left: 1580px;
+    top:277px;
+}
+
+.shape-dots-our3 {
+     width: 370px;
+    height: 167px;
+    background-image: radial-gradient(circle, #ccc 1px, transparent 4px);
+    background-size: 30.5px 40px;
+    position: absolute;
+    left: 1561px;
+    top:658px;
+}
+
+
+
+.shape-dots-faq-bink {
+    height: 45.3px;
+    width: 120.91px;
+    background-image: radial-gradient(circle, #fff 0px, transparent 4px);
+    background-size: 16.5px 7.5px;
+    position: absolute;
+    left: 1861px;
+    top: 224px;
+}
+
+.shape-dots-faq-purple {
+    height: 57.29px;
+    width: 131.91px;
+    background-image: radial-gradient(circle, #fff 0px, transparent 4px);
+    background-size: 14.5px 8.5px;
+    position: absolute;
+    left: -20px;
+    top: 461px;
+}
+
+.shape-dots-foot {
+    width: 198.67px;
+    height: 70.3px;
+    background-image: radial-gradient(circle, #ccc 4px, transparent 4px);
+    background-size: 16.5px 11.5px;
+    position: absolute;
+    left: 52.33px;
+    top: 341px;
+}
+
+
 .circle {
     width: 100%;
 }
 
 .circle1 .circle-beg {
-    width: 312px;
-    height: 312px;
+    width: 262px;
+    height: 262px;
     border: #f59e0b 3px solid;
     border-radius: 50%;
     position: absolute;
-    top: 256px;
-    left: 403px;
+    top: 206px;
+    left: 423px;
 }
 
 .circle1 .circle-smool {
@@ -1252,8 +1373,8 @@ nav ul li a:hover {
     border: #f59e0b 3px solid;
     border-radius: 50%;
     position: absolute;
-    top: 796px;
-    left: 217.6px;
+    top: 966px;
+    left: 257.6px;
 }
 
 .circle3 .circle-smool {
@@ -1262,7 +1383,7 @@ nav ul li a:hover {
     border: #f59e0b 3px solid;
     border-radius: 50%;
     position: absolute;
-    top: 784px;
+    top: 984px;
     left: 619.16px;
     z-index: 0;
 }
@@ -1867,6 +1988,17 @@ nav ul li a:hover {
     .purple-smool,
     .shape-dots-orange,
     .shape-dots-purple,
+    .shape-dots-circle1,
+    .shape-dots-our1,
+    .shape-dots-our2,
+    .shape-dots-our3,
+    .shape-dots-faq-purple,
+    .shape-dots-faq-bink,
+    .shape-dots-foot,
+    .shape-dots-circle2,
+    .shape-dots-circle3,
+    .shape-dots-purple-smool,
+    .shape-dots-bink,
     .circle,
     .circle1,
     .circle2,
