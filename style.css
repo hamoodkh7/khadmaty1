@@ -34,7 +34,7 @@ body {
     bottom: 25px;
     right: 75px;
     display: none;
-    z-index: 2;
+    z-index: 10;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
